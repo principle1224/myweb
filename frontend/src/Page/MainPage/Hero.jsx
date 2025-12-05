@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
 <div className="container mx-auto px-4 py-0 max-w-7xl">
-      <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-24 -mx-100 ">
+      <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-24 -mx-100 z-0 overflow-x-hidden">
         <img src={HeroImage} className="w-full h-[650px] object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-slate-900"></div>
 <div className="absolute bottom-4 inset-x-4 md:bottom-12 md:left-12 text-white max-w-full">
